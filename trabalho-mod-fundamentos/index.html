@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="selector">
+      <div class="selector-color">
+        <div>
+          <p class="selector-name">(R) Vermelho:</p>
+        </div>
+        <div>
+          <input
+            type="range"
+            id="scroll-red"
+            name="scroll-red"
+            min="0"
+            max="255"
+            onchange="alterColor()"
+          />
+          <label>
+            <input
+              id="number-red"
+              type="number"
+              min="0"
+              max="255"
+              onchange="alterParamScroll()"
+            />
+          </label>
+        </div>
+      </div>
+
+      <div class="selector-color">
+        <div>
+          <p class="selector-name">(G) Green:</p>
+        </div>
+        <div>
+          <input
+            type="range"
+            id="scroll-green"
+            name="scroll-green"
+            min="0"
+            max="255"
+            onchange="alterColor()"
+          />
+          <label>
+            <input
+              id="number-green"
+              type="ranger"
+              min="0"
+              max="255"
+              onchange="alterParamScroll()"
+            />
+          </label>
+        </div>
+      </div>
+
+      <div class="selector-color">
+        <div>
+          <p class="selector-name">(B) Blue:</p>
+        </div>
+        <div>
+          <input
+            type="range"
+            id="scroll-blue"
+            name="scroll-blue"
+            min="0"
+            max="255"
+            onchange="alterColor()"
+          />
+          <label for="scroll-blue"></label>
+          <label>
+            <input
+              id="number-blue"
+              type="ranger"
+              min="0"
+              max="255"
+              onchange="alterParamScroll()"
+            />
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="box"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
