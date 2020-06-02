@@ -1,0 +1,22 @@
+{
+  "name": "manipulacao-api-node",
+  "version": "1.0.0",
+  "description": "manipulando api",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianysousa/fullstack-bootcamp-activities.git"
+  },
+  "author": "Fabiany de Sousa Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabianysousa/fullstack-bootcamp-activities/issues"
+  },
+  "homepage": "https://github.com/fabianysousa/fullstack-bootcamp-activities#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
