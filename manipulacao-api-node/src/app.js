@@ -44,19 +44,18 @@ function countCityInState(uf) {
 // console.log(countCityInState('AC'));
 
 // ====================== QUESTION 3 / 4 ========================
-let fiveCities = [];
-
 function countFiveCitiesStates() {
+  let fiveCities = [];
   states_cities.forEach((UF) => {
     const sigla = UF.split('.')[0];
     fiveCities.push({ uf: sigla, length: countCityInState(sigla) });
   });
   return fiveCities;
 }
-// console.log(countFiveCitiesStates());
 
 // ========================= QUESTION 3 =========================
 function fiveMostCitiesStates() {
+  const fiveCities = countFiveCitiesStates();
   fiveCities.sort((a, b) => b.length - a.length);
   return fiveCities.slice(0, 5);
 }
@@ -64,6 +63,7 @@ function fiveMostCitiesStates() {
 
 // ========================= QUESTION 4 =========================
 function fiveSmallerCitiesStates() {
+  const fiveCities = countFiveCitiesStates();
   fiveCities.sort((a, b) => b.length - a.length);
   return fiveCities.slice(fiveCities.length - 5, fiveCities.length);
 }
@@ -86,6 +86,7 @@ function lengthNameCitiesState(UF) {
   return lengthNamesCities;
 }
 
+// ========================= QUESTION 5 =========================
 function mostCityNameAllStates() {
   let mostNameCityStates = [];
   states_cities.forEach((UF) => {
@@ -96,6 +97,7 @@ function mostCityNameAllStates() {
   return mostNameCityStates.sort((a, b) => b.length - a.length);
 }
 // console.log(mostCityNameAllStates());
+
 // ========================= QUESTION 6 =========================
 function smallestCityNameAllStates() {
   let smallestNameCityStates = [];
@@ -113,11 +115,11 @@ function biggestNameCity() {
   let biggestNameCity = mostCityNameAllStates();
   return biggestNameCity[0];
 }
-console.log(biggestNameCity());
+// console.log(biggestNameCity());
 
 // ========================= QUESTION 8 =========================
 function smallestNameCity() {
   let smallestNameCity = smallestCityNameAllStates();
   return smallestNameCity[0];
 }
-console.log(smallestNameCity());
+// console.log(smallestNameCity());
