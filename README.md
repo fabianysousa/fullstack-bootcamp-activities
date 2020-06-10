@@ -27,7 +27,7 @@ Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visuali
 
 [<em>mais informações..</em>](https://github.com/fabianysousa/fullstack-bootcamp-activities/tree/master/rgb)
 
-**Insight**
+## Insight
 
 Essa atividade me fez conhecer tipos de inputs , colocar em prática manipulação de enventos e a manipulação direta do css com javaScript, em que eu mudei a cor de acordo com os valores enviados pelo usuários. 
 
