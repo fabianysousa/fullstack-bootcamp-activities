@@ -25,11 +25,11 @@ Manipulação direta de CSS com JavaScript.<br>
 
 Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
 
-[<em>mais informações..</em>](https://github.com/fabianysousa/fullstack-bootcamp-activities/tree/master/rgb)
-
 ## Insight
 
 Essa atividade me fez conhecer tipos de inputs , colocar em prática manipulação de enventos e a manipulação direta do css com javaScript, em que eu mudei a cor de acordo com os valores enviados pelo usuários. 
+
+[<em>mais informações..</em>](https://github.com/fabianysousa/fullstack-bootcamp-activities/tree/master/rgb)
 
 ---
 
@@ -49,11 +49,11 @@ Manipulação de objetos JSON.<br>
 
 O aluno deverá criar um projeto Node.js para realizar a criação de alguns métodos e processamento de arquivos JSON.
 
-[<em>mais informações..</em>](https://github.com/fabianysousa/fullstack-bootcamp-activities/tree/master/manipulacao-api-node)
-
 ## Insight
 
 Essa atividade foi um pouquinho mais complicada, utilizei funções File System para criar e ler arquivos e por meio dos resultados obtidos criei métodos e processamento de arquivos.json.
+
+[<em>mais informações..</em>](https://github.com/fabianysousa/fullstack-bootcamp-activities/tree/master/manipulacao-api-node)
 
 ---
 
